@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Управляющие конструкции в JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Гродненский колледж бизнеса и права</h1>
+        <h2>Лабораторная работа №10: Управляющие конструкции в JavaScript</h2>
+    </header>
+
+    <main>
+        <section class="task-section">
+            <h3>1. Проверка числа</h3>
+            <div class="input-group">
+                <input type="number" id="numberInput" placeholder="Введите число">
+                <button id="checkNumber">Проверить число</button>
+            </div>
+            <div id="numberResult" class="result-box"></div>
+        </section>
+
+        <section class="task-section">
+            <h3>2. Определение дня недели</h3>
+            <div class="input-group">
+                <input type="number" id="dayInput" placeholder="Введите номер дня (1-7)" min="1" max="7">
+                <button id="checkDay">Определить день</button>
+            </div>
+            <div id="dayResult" class="result-box"></div>
+        </section>
+
+        <section class="task-section">
+            <h3>3. Генератор последовательностей</h3>
+            <div class="input-group">
+                <input type="number" id="sequenceInput" placeholder="Введите число N">
+                <button id="generateSequence">Сгенерировать</button>
+            </div>
+            <div id="sequenceResult" class="result-box"></div>
+        </section>
+
+        <section class="task-section">
+            <h3>4. Калькулятор факториала</h3>
+            <div class="input-group">
+                <input type="number" id="factorialInput" placeholder="Введите число" min="0">
+                <button id="calculateFactorial">Вычислить</button>
+            </div>
+            <div id="factorialResult" class="result-box"></div>
+        </section>
+
+        <section class="task-section">
+            <h3>5. Проверка простого числа</h3>
+            <div class="input-group">
+                <input type="number" id="primeInput" placeholder="Введите число" min="2">
+                <button id="checkPrime">Проверить</button>
+            </div>
+            <div id="primeResult" class="result-box"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>©Karpuk Maksim</p>
+        <p>Выполнил: Карпук Максим 34-ПО</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
